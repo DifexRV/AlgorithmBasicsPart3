@@ -189,7 +189,7 @@ public class IntegerListImpl implements IntegerList {
         return i + 1;
     }
 
-    private static void swapElements(int[] arr, int left, int right) {
+    private static void swapElements(Integer[] arr, int left, int right) {
         int temp = arr[left];
         arr[left] = arr[right];
         arr[right] = temp;
